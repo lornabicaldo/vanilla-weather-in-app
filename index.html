@@ -9,6 +9,15 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/4736d52e29.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -19,14 +28,21 @@
         <div class="weather-app">
           <h1>Stuttgart</h1>
           <ul>
-            <li>Last updated: Monday 22:01</li>
+            <li class="today-date">
+              <small>Last updated: Monday 22:01</small>
+            </li>
           </ul>
-          <h2>Few clouds</h2>
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="Clear"
-          />
-          12°C | °F
+          <div class="clearfix weather-temperature">
+            <h2>Few clouds</h2>
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="Clear"
+              class="float-left"
+            />
+            <div class="float-left">
+              <strong>12</strong> <span class="units">°C | °F</span>
+            </div>
+          </div>
           <p>Feels like: 8°</p>
           <ul>
             <li>Humidity: 78%</li>
