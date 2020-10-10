@@ -15,6 +15,14 @@ h1 {
   text-align: center;
 }
 
+.overview {
+  margin-bottom: 20px;
+}
+
+.today-date {
+  color: #eed023;
+}
+
 h2 {
   color: #da7015;
 }
@@ -76,6 +84,14 @@ p {
   top: -34px;
 }
 
-.today-date {
-  color: #eed023;
+.btn-primary {
+  background-color: #b76e79;
+}
+
+.btn-success {
+  background-color: #ffcf40;
+}
+
+.form-control.search-city {
+  background-color: #ffdc73;
 }

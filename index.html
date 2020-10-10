@@ -27,6 +27,31 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <form id="search-form" class="form-inline">
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Search a city.."
+                class="form-control search-city mb-4 mr-sm-2"
+                id="city-input"
+                autocomplete="off"
+              />
+            </div>
+            <button
+              type="submit"
+              value="Search"
+              class="btn btn-primary mb-4 mr-sm-1"
+              id="search-button"
+            >
+              <i class="fas fa-search"></i>
+            </button>
+            <button
+              class="btn btn-success rounded-circle mb-4 mr-sm-1"
+              id="current-location-button"
+            >
+              📍
+            </button>
+          </form>
           <div class="overview">
             <h1 id="city"></h1>
             <ul class="current-date">
@@ -48,7 +73,7 @@
           </p>
           <ul>
             <li>
-              HUmidity💦: <strong><span id="humidity"></span></strong>%
+              Humidity💦: <strong><span id="humidity"></span></strong>%
             </li>
             <li>
               Wind 💨: <strong><span id="speed"></span></strong> km/h
