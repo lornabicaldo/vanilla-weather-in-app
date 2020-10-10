@@ -84,7 +84,7 @@ p {
   top: -34px;
 }
 
-weather-temperature .active {
+.weather-temperature .active {
   color: #2c2727;
   cursor: default;
 }
