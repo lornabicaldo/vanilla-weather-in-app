@@ -15,6 +15,10 @@ h2 {
   color: #da7015;
 }
 
+h2::first-letter {
+  text-transform: capitalize;
+}
+
 .weather-app {
   padding: 10px;
   border: 1px solid #e89b00;
