@@ -84,6 +84,15 @@ p {
   top: -34px;
 }
 
+weather-temperature .active {
+  color: #2c2727;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
 .btn-primary {
   background-color: #b76e79;
 }
