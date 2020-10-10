@@ -11,6 +11,10 @@ h1 {
   margin-top: 18px;
 }
 
+.current-date {
+  text-align: center;
+}
+
 h2 {
   color: #da7015;
 }
