@@ -32,6 +32,8 @@ h2::first-letter {
 }
 
 .weather-app {
+  background-image: url(https://i.ytimg.com/vi/cxuxU-T0Qe4/maxresdefault.jpg);
+  background-size: 830px;
   padding: 10px;
   border: 1px solid #e89b00;
   border-radius: 5px;
@@ -45,6 +47,7 @@ h2::first-letter {
 ul {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 li {
@@ -59,6 +62,7 @@ li {
 
 p {
   color: #da7015;
+  margin-bottom: 1px;
 }
 
 .weather-temperature {
@@ -98,7 +102,7 @@ p {
 }
 
 .weather-forecast h3 {
-  color: #e89b00;
+  color: #2b2823;
   font-size: 15px;
   text-align: center;
   height: 15px;
@@ -131,7 +135,7 @@ p {
 }
 
 .btn-primary {
-  background-color: #b76e79;
+  background-color: #dd8e9a;
 }
 
 .btn-success {
@@ -140,4 +144,8 @@ p {
 
 .form-control.search-city {
   background-color: #ffdc73;
+}
+
+.open-sourse {
+  color: #e89b00;
 }
